@@ -4,40 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration.</title>
+    <link rel="stylesheet" href="./style/style.css">
     
 </head>
 <body>
     <form action="#"></form>
-        <div>
-            <h1>Login I Register</h1>
+        <div class="title">
+            <h2>Login I <span>Register</span></h2>
+        </div>
+        <div class="implication">
             <h3>Enter your email and password to register.</h3>
         </div>
-        <div>
-            <input type="text" name="Username" placeholder="Username">
-        </div>
-        <div>
-            <input type="email" name="mail" placeholder="Enter your email address">
-        </div>
-        <div>
-        <input type="password" name="password" placeholder="Password">
-        </div>
-        <div>
-        <input type="password" name="password" placeholder="Confirm Password">
-        </div>
-        <input type="submit" value="Register">
-        </div>
+        <section class="section_form">
+            <form class="register_form">
+                <input class="register_form_input" type="text" name="Username" placeholder="Username">
+                <input class="register_form_input" type="email" name="mail" placeholder="Enter your email address">
+                <input class="register_form_input" type="password" name="password" placeholder="Password">
+                <input class="register_form_input" type="password" name="password" placeholder="Confirm password">
+                <button class="register_button"> Register</button>
+            </form>
+        </section>
     </form>
     <div>
-        <h3>------Or register with------</h3>
+        <h3 class="alternative_input_info">------Or register with------</h3>
     </div>
     <div>
-        <button>
-            <a href="#"> Continue with Google</a>        
+        <button class="alternative_button" type="button">
+            Continue with Google
         </button>
     </div>
     <div>
-        <button>
-            <a href="#"> Continue with Facebook</a>
+        <button class="alternative_button">
+            Continue with Facebook
         </button>
     </div>
 </body>
